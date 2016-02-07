@@ -110,7 +110,7 @@ clean:	regressclean
 	(cd openbsd-compat && $(MAKE) clean)
 
 distclean:	regressclean
-	rm -f *.o *.a $(PAM_MODULES) logintest config.cache config.log
+	rm -f *.o *.a $(PAM_MODULES) logintest config.cache config.log config.h
 	rm -f *.out core 
 	rm -f Makefile config.h config.status
 	rm -f openbsd-compat/regress/Makefile *~ 
