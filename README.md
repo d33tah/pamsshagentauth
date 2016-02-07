@@ -1,3 +1,11 @@
+DO NOT USE THIS FORK
+====================
+
+This is for experimental purposes only. Please do not use this fork.
+
+Old contents of the README:
+===========================
+
 pam_ssh_agent_auth is a PAM module which permits PAM authentication via your
 keyring in a forwarded ssh-agent.
 
